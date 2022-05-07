@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/AndreyMachula/goit-js-hw-08#readme",
   "dependencies": {
-    "joi": "^17.6.0"
+    "joi": "^17.6.0",
+    "uuid": "^8.3.2"
   }
 }
