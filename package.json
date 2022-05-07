@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AndreyMachula/goit-js-hw-08/issues"
   },
-  "homepage": "https://github.com/AndreyMachula/goit-js-hw-08#readme"
+  "homepage": "https://github.com/AndreyMachula/goit-js-hw-08#readme",
+  "dependencies": {
+    "joi": "^17.6.0"
+  }
 }
