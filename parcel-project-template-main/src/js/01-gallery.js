@@ -1,14 +1,16 @@
 // Described in the documentation
 import SimpleLightbox from "simplelightbox";
+
 // Additional style imports
 import "simplelightbox/dist/simple-lightbox.min.css";
+
 // Import a markup template
 import markupTemplate from '../templates/markup-template.hbs';
 // Add imports above this line
+
 import { galleryItems } from './gallery-items';
 // Change code below this line
 
-console.log(markupTemplate);
 const galleryEl = document.querySelector('.gallery');
 
 
@@ -18,9 +20,6 @@ const createGalleryMarkup = galleryItems
   .join("");
 
 galleryEl.insertAdjacentHTML("beforeend", createGalleryMarkup);
-
-
-
 
 // Library initialization after gallery elements are created and added to `div.gallery`.
 const lightboxOptions = {
