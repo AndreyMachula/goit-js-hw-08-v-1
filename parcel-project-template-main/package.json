@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://AndreyMachula.github.io/goit-js-hw-08/parcel-project-template-main",
+  "homepage": "https://andreymachula.github.io/goit-js-hw-08/parcel-project-template-main",
   "scripts": {
     "dev": "parcel parcel-project-template-main/src/*.html",
     "build": "parcel build parcel-project-template-main/src/*.html --public-url /goit-js-hw-08/parcel-project-template-main/"
